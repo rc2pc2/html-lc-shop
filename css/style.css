@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    padding: 1rem;
+    background-color: rgb(179, 179, 255);
+}
+
+header:hover h1{
+   color: red;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.margin-auto{
+    margin: auto;
+}
+
+.height-100{
+    height: 100%;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.relative{
+    position: relative;
+}
+
